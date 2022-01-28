@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="panel" id="home">
+        <div class="first">
+            <h1>Online WebDev-based Scavenger Hunt.</h1>
+            <p>Virtual scavenger hunts are remote games where players scramble to find items or fulfill challenges before time runs out. For example, a player may have to retrieve their favorite mug or take a selfie to earn points. The goal of these games
+                is to have fun and encourage engagement for participants. These activities are also known as an Online Scavenger Hunt, Digital Scavenger Hunt or Virtual Treasure Hunt. <br><br> Ready for some FUN? Click below to register for the event
+                :
+            </p>
+            <a class="menu__link" href="#second">Count Me In!</a>
+        </div>
+    </div>
+    <div class="panel" id="second">
+        <form action="//">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div class="flex">
+                    <label style="width: 50%;" for="fname">Full Name :</label>
+                    <input style="width: 50%;" type="text" id="fname" name="fname" placeholder="Tanvi Johari">
+
+                </div>
+                <div class="flex">
+                    <label style="width: 50%;" for="email">College E-Mail :</label>
+                    <input style="width: 50%;" type="email" id="email" name="email" placeholder="email@gmail.com">
+                </div>
+                <div class="flex">
+                    <label style="width: 50%;" for="phone">Phone number :</label>
+                    <input style="width: 50%;" type="tel" id="phone" name="phone" placeholder="+91 9958185249" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
+            </fieldset>
+            <fieldset style="margin: auto;">
+                <legend>Getting To Know You Better</legend>
+                <div class="out">
+                    <div class=" div">
+                        <label for="gender">Gender :</label><br>
+                        <div class="flex">
+                            <div><input type="radio" id="gender" name="gender" value="male" /> Male
+                            </div>
+                            <div><input type="radio" id="gender" name="gender" value="female" /> Female
+                            </div>
+                            <div><input type="radio" id="gender" name="gender" value="other" /> Other
+                            </div>
+                            <div><input type="radio" id="gender" name="gender" value="no" /> Prefer Not to Say </div>
+                        </div>
+                    </div>
+                    <div class="div" style="display: flex; justify-content: space-between;">
+                        <label for="register_country">What is your Nationality?</label>
+                        <select name="country" id="register_country">
+                            <option value="choose">Choose</option>
+                            <option value="pakistan">Australia</option>
+                            <option value="africa">Africa</option>
+                            <option value="china">China</option>
+                            <option value="india">India</option>
+                            <option value="United States of America">United States of America</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="div">
+                        <label for="checkbox">Which of the following languages have you used before?</label>
+                        <div class="flex">
+                            <div><input type="checkbox" id="ht" name="ht" value="ht" />
+                                <label for="ht" style="font-size: 2.5vh; margin-bottom: 0;">HTML</label>
+                            </div>
+                            <div><input type="checkbox" id="cs" name="cs" value="cs" />
+                                <label for="cs" style="font-size: 2.5vh; margin-bottom: 0;">CSS</label>
+                            </div>
+                            <div><input type="checkbox" id="js" name="js" value="js" />
+                                <label for="js" style="font-size: 2.5vh; margin-bottom: 0;">JS</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="about">Help us know a bit about yourself!</label><br>
+                        <textarea style="padding: 0.2rem 0.4rem;" name="about" id="about" placeholder="About yourself..."></textarea>
+                    </div>
+                </div>
+            </fieldset>
+            <br>
+            <a class="menu_link" style="width: 100%;" href="#home">Submit</a>
+        </form>
+    </div>
+
+</body>
+
+</html>
