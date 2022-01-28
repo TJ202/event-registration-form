@@ -123,6 +123,7 @@ option:hover {
 
 h1 {
     color: white;
+    font-size: 4vh;
     margin-bottom: 1rem;
 }
 
@@ -132,6 +133,7 @@ p {
     user-select: none;
     text-align: center;
     text-align: justify;
+    font-size: 3vh;
     margin-bottom: 1rem;
 }
 
@@ -150,6 +152,7 @@ a {
 .menu__link {
     display: inline-block;
     text-decoration: none;
+    font-size: 2.5vh;
     border: 2px solid white;
     color: white;
     position: relative;
@@ -174,6 +177,7 @@ a {
     color: white;
     position: relative;
     padding: 0.2rem;
+    font-size: 2.5vh;
     box-sizing: border-box;
     margin: 0;
     user-select: none;
